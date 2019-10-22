@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The MetroCraft</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <!--fancybox (галерея)-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</head>
+<body>
+<!--Menu-->
+<nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
+  <a href="index.html" data-value="menu" class="navbar-brand">MetroCraft</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuCollapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+<!--Header-->
+<header class="header">
+    <div class="overlay"></div>
+    <div class="d-flex justify-content-center">
+      <form class="description">
+        <div class="form-group">
+          <label for="formGroupExampleInput">Введите Логин</label>
+          <input  type="text" class="form-control" id="formGroupExampleInput" placeholder="Логин" required>
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Введите Пароль</label>
+          <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Пароль" required>
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Повторите пароль</label>
+          <input type="password" class="form-control" id="formGroupExampleInput" placeholder="Ещё раз пароль" required>
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Укажите вашу почту</label>
+          <input type="email" class="form-control" id="formGroupExampleInput" placeholder="почта@майл.ру" required>
+        </div>
+        <button class="btn btn-success" style="width: 230px;">Создать аккаунт</button>
+      </form>      
+    </div>
+</header>
+<script type="text/javascript" src='js/main.js'></script>
+</body>
+</html>

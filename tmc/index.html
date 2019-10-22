@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The MetroCraft</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://kit.fontawesome.com/2ad315da6f.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <!--fancybox (галерея)-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</head>
+<body>
+<!--Menu-->
+<nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
+  <a href="index.html" class="navbar-brand">MetroCraft</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuCollapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   <!---->
+   <div class="collapse navbar-collapse" id="menuCollapse">
+      <ul class="navbar-nav style="width: 100%;">
+          <li class="nav-item">
+            <a href="#" data-value="about" class="nav-link">О проекте</a>
+          </li>
+          <li class="nav-item">
+            <a href="questions.html" data-value="portfolio" class="nav-link">Вопросы</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" data-value="news" class="nav-link">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://vk.com/themetrocraft" class="nav-link">Наш ВК</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://discord.gg/JyTs8qh" class="nav-link">Наш Дискорд</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Вики</a>
+          </li>
+          <li class="nav-item">
+            <a href="rules.html" class="nav-link">Правила</a>
+          </li>
+          <li class="nav-item">
+            <a href="banlist.html" class="nav-link">Банлист</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link" id="thatBtn">Войти</a>
+          </li>
+          <li class="nav-item">
+            <a href="signUp.html" class="nav-link" id="thatBtn">Регистрация</a>
+          </li>
+       </ul>
+   </div> 
+</nav>
+<!--Header-->
+<header class="header">
+  <div class="overlay"></div>
+
+    <div class="description text-center">
+        <h3>
+          Добро пожаловать на MetroCraft
+        </h3>
+        <p>
+          MetroCraft — видеоигра в жанрах FPS и Survival horror и уникальным, 
+          атмосферным геймплеем. Действия игры разворачиваются в 2033 году, 
+          когда над метро нависает новая неизвестная угроза, которую вам предстоит предотвратить.
+        </p>
+        <a href="https://drive.google.com/file/d/1ANfD7pql3hsUZYP2uu_ZwuXYO3rN-gjI/view">
+          <button type="button" class="btn btn-primary">Скачать</button>
+        </a>
+    </div>
+  </div>
+</header>
+<!--Slider/About-->
+<div id="about"></div>
+  <h1 class="text-center">
+    Что такое MetroCraft?
+  </h1>
+  <p class="text-center about">
+    MetroCraft — видеоигра в жанрах FPS и Survival horror и уникальным, атмосферным геймплеем. 
+    Сюжет игры основывается на одноимённом романе Дмитрия Глуховского «Метро 2033». 
+    Действия игры разворачиваются в 2033 году, когда над метро нависает новая неизвестная угроза, 
+    которую вам предстоит предотвратить.
+  </p>
+  <ul id="slides">
+    <li class="slide showing"></li>
+    <li class="slide"></li>
+    <li class="slide"></li>
+  </ul>
+<!--info/cards-->
+<h1 class='text-center'>Инфо-раздел</h1>
+<div class="d-flex flex-row flex-wrap justify-content-around">
+  <div class="col-lg-3 col-md-12 col-sm-12"><img src="img/new1.jpg" alt="new1"></div>
+  <div class="col-lg-3 col-md-12 col-sm-12"><img src="img/new2.jpg" alt="new2"></div>
+  <div class="col-lg-3 col-md-12 col-sm-12"><img src="img/new3.jpg" alt="new3"></div>
+</div>
+<!--VK-->
+<h1 id="news">Новости</h1>
+<div class="d-flex flex-row flex-wrap justify-content-around">
+  <div class='col-lg-5 col-md-5 col-sm-12'>
+    <div id="vk_post_-141742552_5076"></div>
+    <script type="text/javascript">
+    (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://vk.com/js/api/openapi.js?162"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'vk_openapi_js'));
+    (function() {
+      if (!window.VK || !VK.Widgets || !VK.Widgets.Post || !VK.Widgets.Post('vk_post_-141742552_5076', -141742552, 5076, 'lIFIABri-UOQb_ZaAFu5U1Ytiwq0')) setTimeout(arguments.callee, 50);
+    }());
+    </script>
+  </div>
+  <div class='col-lg-5 col-md-5 col-sm-12'>
+    <div id="vk_post_-141742552_5141"></div>
+    <script type="text/javascript">
+      (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://vk.com/js/api/openapi.js?162"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'vk_openapi_js'));
+      (function() {
+        if (!window.VK || !VK.Widgets || !VK.Widgets.Post || !VK.Widgets.Post('vk_post_-141742552_5141', -141742552, 5141, 'k87pFg1T9B_we5yszqmIL62WQVbx')) setTimeout(arguments.callee, 50);
+      }());
+    </script>
+  </div>
+</div>
+<br>
+<!--Footer-->
+<div class="middle">
+  <a href="#" class="btn">
+    <i class="fab fa-vk"></i>
+  </a>
+  <a href="#" class="btn">
+    <i class="fab fa-youtube"></i>
+  </a>
+  <a href="#" class="btn">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+<br>
+<footer class="text-center">
+MetroCraft © 2019
+</footer>
+<!---->
+
+<script type="text/javascript" src='js/main.js'></script>
+</body>
+</html>
+
+
+
+
+

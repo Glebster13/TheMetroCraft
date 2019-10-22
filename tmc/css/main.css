@@ -1,0 +1,158 @@
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header{
+    background-image: url('../img/headerBg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.description{
+    position: absolute;
+    top: 35%;
+    margin: auto;
+    padding: 2em;
+    width: auto;
+}
+.description h3{
+ color:#fff ;
+}
+.description p{
+ color:#fff;
+ font-size: 20px;
+ line-height: 1.5;
+}
+.description button{
+ color:#fff;
+ width: 120px;
+}
+
+#about{
+    margin-bottom:1em;
+}
+
+p.about{
+    color:#fff;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#slides{
+    position: relative;
+    height: 500px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    margin-top: 3em;
+}
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+
+.slide{
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+}
+
+.slide:nth-of-type(1){
+    background: red;
+}
+.slide:nth-of-type(2){
+    background: orange;
+}
+.slide:nth-of-type(3){
+    background: green;
+}
+.slide:nth-of-type(4){
+    background: blue;
+}
+.slide:nth-of-type(5){
+    background: purple;
+}
+
+h1{
+    color:#fff;
+    text-align: center;
+    margin: 1em;  
+}
+
+h1.whatAbout{
+    margin-top: 0;
+}
+
+.form-group label{
+    color: #fff;
+}
+
+.middle{
+    text-align: center;
+}
+
+.middle .btn{
+    width: 90px;
+    height: 90px;
+    margin:10px;
+    background: rgb(155, 153, 152);
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+}
+
+.btn i{
+    line-height: 80px;
+    font-size: 26px;
+}
+
+.btn:hover i{
+    transform: scale(1.3);
+    color:black;
+}
+
+#thatBtn{
+    color: whitesmoke;
+}
+.rule{
+    background-color: rgb(131, 128, 127);
+}
+.rule h1{
+    margin-top:60px;
+}
+.rule p{
+    color: white;
+    margin-top:30px;
+}
+.bans{
+    background-color: whitesmoke;
+}
+.bans h1{
+    color: black;
+}
